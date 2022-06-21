@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+
+body {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    margin-top: 150px;
+    margin-left: 450px;
+    color: rgb(46, 2, 2);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 74px;
+    background: #9bea56;
+    box-shadow: 7px 7px 4px #8fd74f,
+        -7px -7px 4px #f58ccb;
+}
+
+.contar {
+    font-size: 4rem;
+}
+
+.buttons {
+    margin: top 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 5px;
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background: #f4b7cd;
+    border: none;
+    border-radius: 5px;
+}
+
+span {
+    font-size: 3.5rem;
+}
