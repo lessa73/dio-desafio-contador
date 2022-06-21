@@ -6,7 +6,7 @@ increment.addEventListener("click", () => {
     currentNumberWrapper.innerHTML = currentNumber;
 })
 
-decrement.addEventListener("click", () =>{
+decrement.addEventListener("click", () => {
     currentNumber = currentNumber - 1;
     currentNumberWrapper.innerHTML = currentNumber;
 })
